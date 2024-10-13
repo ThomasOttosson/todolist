@@ -1,19 +1,25 @@
+//Selectors
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 
+//Event Listeners
 todoButton.addEventListener('click', addTodo);
 
-function addTodo(event){
+//Functions
+
+function addTodo(event) {
+    //Prevent form from submitting
     event.preventDefault();
 
+    //todo div
     const todoDiv = document.createElement('div');
     todoDiv.classList.add('todo');
 
     //create li
-    const newTodo = document.createElement('li')
+    const newTodo = document.createElement('li');
     newTodo.innerText = 'hey';
-    newTodo.classList.add('todo-item')
+    newTodo.classList.add('todo-item');
     todoDiv.appendChild(newTodo);
 
     //check mark button
