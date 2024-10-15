@@ -69,6 +69,7 @@ function deleteCheck(e) {
     }
 }
 
+//Seperates completed and uncompleted in the options
 function filterTodo(e) {
     const todos = todoList.childNodes;
     todos.forEach(function(todo) {
@@ -94,6 +95,7 @@ function filterTodo(e) {
     });
 }
 
+//Saves to localstorage
 function saveLocalTodos(todo) {
     let todos;
     if(localStorage.getItem('todos') === null) {
@@ -140,6 +142,7 @@ function getTodos() {
     });
 }
 
+//removes from local storage
 function removeLocalTodos(todo) {
     let todos;
     if(localStorage.getItem('todos') === null) {
