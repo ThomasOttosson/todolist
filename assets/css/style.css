@@ -50,17 +50,20 @@ form button:hover {
     color: white;
 }
 
+/* Centers the container */
 .todo-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Adjusts the list and removes the dot marks of the list */
 .todo-list {
     min-height: 30%;
     list-style: none;
 }
 
+/* adjusts the styling structure of the list of todos. */
 .todo {
     margin: 0.5rem;
     background: white;
@@ -72,10 +75,12 @@ form button:hover {
     transition: all 0.5s ease;
 }
 
+/* pushes the checkmark button to the right next to the traschcan button. */
 .todo li {
     flex: 1;
 }
 
+/* Styles the look of the trashcan button and checkmark button */
 .trash-btn, 
 .complete-btn {
     background: #ff6f47;
@@ -86,6 +91,7 @@ form button:hover {
     font-size: 1rem;
 }
 
+/* Overides the checkmark button in order for the button to have a green color */
 .complete-btn {
     background: rgb(73, 204, 73);
 }
