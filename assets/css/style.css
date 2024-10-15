@@ -113,11 +113,13 @@ form button:hover {
     opacity: 0.5;
 }
 
+/* creates a fall effect once the list item has been removed */
 .fall {
     transform: translateY(8rem) rotateZ(20deg);
     opacity: 0;
 }
 
+/* Removes all the standard original web styling of the select tag */
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -126,18 +128,21 @@ select {
     border: none;
 }
 
+/* Adjusts the position of the select button */
 .select {
     margin: 1rem;
     position: relative;
     overflow: hidden;
 }
 
+/* Changes the color and pointer for the select button */
 select {
     color: #ff6f47;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
 }
+
 
 select::after {
     content: "\25BC";
