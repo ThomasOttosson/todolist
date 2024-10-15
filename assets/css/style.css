@@ -96,15 +96,18 @@ form button:hover {
     background: rgb(73, 204, 73);
 }
 
+/* Adjusts the text in the lists so there are some gap. */
 .todo-item {
     padding: 0rem 0.5rem;
 }
 
+/* Makes the trashcan button clickable on the whole square since the <i> element overides it otherwise. */
 .fa-trash, 
 .fa-check {
     pointer-events: none;
 }
 
+/* Decorates the text of the list when the user has clicked on the checkmark */
 .completed {
     text-decoration: line-through;
     opacity: 0.5;
