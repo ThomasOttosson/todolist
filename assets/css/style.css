@@ -1,9 +1,11 @@
+/* Removes the basic styling of the browser */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
+/* Creates the background color */ 
 body {
     background-image: linear-gradient(120deg, #f6d365, #fda085);
     color: white;
@@ -11,10 +13,12 @@ body {
     min-height: 100vh;
 }
 
+/* Adjusts the text size of the header */
 header {
     font-size: 1.5rem;
 }
 
+/* Centers the header and the form */
 header, 
 form {
     min-height: 20vh;
@@ -23,6 +27,7 @@ form {
     align-items: center;
 }
 
+/* This styles the input text field */
 form input, 
 form button {
     padding: 0.5rem;
@@ -31,6 +36,7 @@ form button {
     background: white;
 }
 
+/* Styles the color of the form button and makes the button look clickable */
 form button {
     color: #fda085;
     background: white;
@@ -38,6 +44,7 @@ form button {
     transition: all 0.3s ease;
 }
 
+/* Changes the color of the form button during a hover event */
 form button:hover {
     background: #fda085;
     color: white;
