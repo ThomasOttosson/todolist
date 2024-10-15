@@ -144,7 +144,7 @@ select {
 }
 
 
-/* Styles the select buttons structure */
+/* Styles the select button structure */
 select::after {
     content: "\25BC";
     position: absolute;

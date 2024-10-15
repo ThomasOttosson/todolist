@@ -107,6 +107,7 @@ function saveLocalTodos(todo) {
     localStorage.setItem('todos', JSON.stringify(todos));
 }
 
+// Fixes the storage index
 function getTodos() {
     let todos;
     if(localStorage.getItem('todos') === null) {
