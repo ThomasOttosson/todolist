@@ -16,11 +16,21 @@
 
 ## Text input field
 
+* The text input field have a clean white background where the user can type their text of "todos". The text has been nicely centered so the text isn't stuck to the edge.
+
 ## Text input field button
+
+* Next to the text input field the user can find a button. The button has a hover effect so it changes color when that event happens.
 
 ## "Todos"
 
+* The "todos" pops up when the user presses the text input field button. To the right side of the "todo" item the user can find a green checkmark button and a trashcan button.
+
 ## Checkmark and trashcan buttons
+
+* The checkmark button can be used by the user when a task is completed and will have a line-through effect with some opacity to make it look creative.
+
+* The trachcan button can be used by the user when they want to remove a task.
 
 ## Select options button
 
