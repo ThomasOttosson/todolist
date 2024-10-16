@@ -1,4 +1,6 @@
-# Todo list
+# Thomas todo list
+
+This project is a good visiual learning experience where it can give a person an added piece of creativity in terms of a nice color design and functions for future projects.
 
 ![]()
 
@@ -34,6 +36,8 @@
 
 ## Select options button
 
+* Here the user can choose and filter the tasks that has been completed or uncompleted. They can also pick the option of choosing all.
+
 ## Features left to improve the project
 
 * Adding a timer for each todo in order to show the user how long time that has passed.
@@ -53,6 +57,3 @@
 ## Media
 
 * All the icons used in the code was taken from font awsome. Here is a url adress to their homepage: https://fontawesome.com/
-
-
-
