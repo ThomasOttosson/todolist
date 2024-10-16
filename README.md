@@ -42,9 +42,23 @@ This project is a good visiual learning experience where it can give a person an
 
 * Adding a timer for each todo in order to show the user how long time that has passed.
 
+* Adding dates.
+
+* Adding a start timer to keep the track of current time of task progress.
+
 ## Validator testing
 
+The HTML and CSS code has been validated through:
+
+* W3C Validator(HTML): https://validator.w3.org/nu/
+
+* Jigsaw Validator(CSS): https://www.w3.org/
+
 ## Overall tests
+
+* Amiresponsive:
+
+* Lighthouse results:
 
 ## Unfixed bugs
 
@@ -57,3 +71,5 @@ This project is a good visiual learning experience where it can give a person an
 ## Media
 
 * All the icons used in the code was taken from font awsome. Here is a url adress to their homepage: https://fontawesome.com/
+
+* https://fonts.google.com/
