@@ -76,10 +76,12 @@ function filterTodo(e) {
         switch(e.target.value) {
             case "all":
                 todo.style.display = "flex";
+                console.log("all selected")
                 break;
             case "completed":
                 if(todo.classList.contains('completed')) {
                     todo.style.display = 'flex';
+                    console.log("completed selected")
                 } else {
                     todo.style.display = "none";
                 }
@@ -87,6 +89,7 @@ function filterTodo(e) {
             case "uncompleted":
                 if(!todo.classList.contains('completed')) {
                     todo.style.display = 'flex'
+                    console.log("uncompleted selected")
                 } else {
                     todo.style.display = "none";
                 }
