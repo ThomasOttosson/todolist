@@ -2,11 +2,11 @@
 
 This project is a good visiual learning experience where it can give a person an added piece of creativity in terms of a nice color design and functions for future projects.
 
-![]()
+![task_manager](./assets/images/task_manager.png)
 
 ## Features
 
-* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. The user can also use the select options to see which tasks that has been completed or uncompleted. All the actions the users take on the site will get stored in the in a local storage so when they return to the page everything will be saved.
+* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. The user can also use the select options to see which tasks that has been completed or uncompleted. All the actions the users take on the site will get stored in the in a local storage so when they return to the page everything will be saved. The project also has a timer with a start, stop and reset function so the user can track their time.
 
 ## Background design
 
@@ -38,13 +38,19 @@ This project is a good visiual learning experience where it can give a person an
 
 * Here the user can choose and filter the tasks that has been completed or uncompleted. They can also pick the option of choosing all.
 
-## Features left to improve the project
+## Timer
 
-* Adding a timer for each todo in order to show the user how long time that has passed.
+* Here the user can keep track of their time so they know how much time they have invested for a task.
+
+* The timer consists of hours, minutes, seconds and milliseconds in the display.
+
+* The timer has a green start button, a red stop button and a blue reset button.
+
+## Features left to improve the project
 
 * Adding dates.
 
-* Adding a start timer to keep the track of current time of task progress.
+* Adding a realtime clock function for each country world wide.
 
 ## Validator testing
 

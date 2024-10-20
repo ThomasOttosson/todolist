@@ -1,16 +1,16 @@
-//Selectors
+//Selectors for the todos
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 const filterOption = document.querySelector('.filter-todo')
 
-//Event Listeners
+//Event Listeners for the todos
 document.addEventListener('DOMContentLoaded', getTodos);
 todoButton.addEventListener('click', addTodo);
 todoList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('click', filterTodo);
 
-/* Functions */
+/* Functions for the todos*/
 
 function addTodo(event) {
     //Prevent form from submitting
@@ -160,12 +160,16 @@ function removeLocalTodos(todo) {
     localStorage.setItem("todos", JSON.stringify(todos));
 }
 
+// Selector for timer
 const display = document.getElementById("display");
+
+// Variables
 let timer = null;
 let startTime = 0;
 let elapsedTime = 0;
 let isRunning = false;
 
+/* Start function for the timer*/
 function start() {
 
     if(!isRunning) {
@@ -175,6 +179,7 @@ function start() {
     }
 }
 
+/* Stop function for the timer */
 function stop() {
 
     if(isRunning) {
@@ -184,6 +189,7 @@ function stop() {
     }
 }
 
+/* Reset function for the timer */
 function reset() {
 
     clearInterval(timer);
@@ -193,6 +199,7 @@ function reset() {
     display.textContent = "00:00:00:00";
 }
 
+/* Updates the time on a reguarly basis */
 function update() {
     const currentTime = Date.now();
     elapsedTime = currentTime - startTime;
