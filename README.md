@@ -12,21 +12,31 @@ This project is a good visiual learning experience where it can give a person an
 
 * The color style: linear-gradient(120deg, #f6d365, #fda085) was used as a background image for this project. This gives the user a fun and beutiful color to watch instead of just one simple and same color.
 
+![background_color](./assets/images/background_color.png)
+
 ## Title
 
 * The title was created with google fonts where "Popppins" was used and sans-serif.
+
+![title_taskmanager](./assets/images/title_taskmanager.png)
 
 ## Text input field
 
 * The text input field have a clean white background where the user can type their text of tasks. The text has been nicely centered so the text isn't stuck to the edge.
 
+![textinput_field](./assets/images/textinput_field.png)
+
 ## Text input field button
 
 * Next to the text input field the user can find a button. The button has a hover effect so it changes color when that event happens.
 
+![]()
+
 ## The tasks
 
 * The tasks pops up when the user presses the text input field button. To the right side of the tasks items the user can find a green checkmark button and a trashcan button.
+
+![]()
 
 ## Checkmark and trashcan buttons
 
@@ -34,9 +44,13 @@ This project is a good visiual learning experience where it can give a person an
 
 * The trachcan button can be used by the user when they want to remove a task.
 
+![]()
+
 ## Select options button
 
 * Here the user can choose and filter the tasks that has been completed or uncompleted. They can also pick the option of choosing all.
+
+![]()
 
 ## Timer
 
@@ -45,6 +59,8 @@ This project is a good visiual learning experience where it can give a person an
 * The timer consists of hours, minutes, seconds and milliseconds in the display.
 
 * The timer has a green start button, a red stop button and a blue reset button.
+
+![]()
 
 ## Features left to improve the project
 
@@ -64,7 +80,11 @@ The HTML and CSS code has been validated through:
 
 * Amiresponsive:
 
+![]()
+
 * Lighthouse results:
+
+![]()
 
 ## Unfixed bugs
 
@@ -73,6 +93,8 @@ The HTML and CSS code has been validated through:
 ## Deployment
 
 * The deployment was made through github. The step by step process where the following: Settings --> Pages --> Source --> Deploy from a branch --> Main --> /(root) --> Save.
+
+![]()
 
 ## Credit
 
