@@ -6,37 +6,49 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Features
 
-* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. The user can also use the select options to see which tasks that has been completed or uncompleted. All the actions the users take on the site will get stored in the in a local storage so when they return to the page everything will be saved. The project has a timer with a start, stop and reset function so the user can track their time. The project also has a local storage function which enables the user to have their tasks saved for the future.
+* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. The user can also use the select options to see which tasks that has been completed or uncompleted. All the actions the users take on the site will get stored in the in a local storage so when they return to the page everything will be saved. 
+
+* The task manager has a timer with a start, stop and reset function so the user can track their time. 
+
+* The task manager also has a local storage function which enables the user to have their tasks saved for the future.
+
+* The task manager also has an in real life clock.
 
 ## Background design
 
-* The color style: linear-gradient(120deg, #f6d365, #fda085) was used as a background image for this project. This gives the user a fun and beutiful color to watch instead of just one simple and same color.
+* The color style: linear-gradient(120deg, #e4cdcd, #650404) was used as a background image for this project. This gives the user a fun and beutiful color to watch instead of just one simple and same color.
 
-![background_color](./assets/images/background_color.png)
+![background_color](./assets/images/background_task.png)
 
 ## Title
 
 * The title was created with google fonts where "Popppins" was used and sans-serif.
 
-![title_taskmanager](./assets/images/title_taskmanager.png)
+![title_taskmanager](./assets/images/task_title.png)
+
+## The clock
+
+* The clock is a digital clock design which tracks the current date and time.
+
+![clock_task](./assets/images/clock_task.png)
 
 ## Text input field
 
 * The text input field have a clean white background where the user can type their text of tasks. The text has been nicely centered so the text isn't stuck to the edge.
 
-![textinput_field](./assets/images/textinput_field.png)
+![textinput_field](./assets/images/inputtext_task.png)
 
 ## Text input field button
 
 * Next to the text input field the user can find a button. The button has a hover effect so it changes color when that event happens.
 
-![textinput_button](./assets/images/textinput_button.png)
+![textinput_button](./assets/images/textbutton_task.png)
 
 ## The tasks
 
 * The tasks pops up when the user presses the text input field button. To the right side of the tasks items the user can find a green checkmark button and a trashcan button.
 
-![tasks](./assets/images/tasks.png)
+![tasks](./assets/images/thetasks_task.png)
 
 ## Checkmark and trashcan buttons
 
@@ -46,11 +58,11 @@ This project is a good visiual learning experience where it can give a person an
 
 ![trashcan_checkmark](./assets/images/trashcan_checkmark.png)
 
-## Select options button
+## Select filter options button
 
 * Here the user can choose and filter the tasks that has been completed or uncompleted. They can also pick the option of choosing all.
 
-![all_](./assets/images/all_.png)
+![all_](./assets/images/all_task.png)
 
 ## Timer
 
@@ -66,9 +78,13 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Features left to improve the project
 
-* Adding dates.
+* Adding deadline dates for each task.
 
-* Adding a realtime clock function for each country world wide.
+* Adding a function which can track how much time spent on each task.
+
+* Adding an edit button for each task incase an user wants to rename a task for future purposes or misspellings.
+
+* Adding a tool which can move around the tasks based on priority.
 
 ## Validator testing
 

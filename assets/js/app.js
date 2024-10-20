@@ -163,7 +163,7 @@ function removeLocalTodos(todo) {
 // Selector for timer
 const display = document.getElementById("display");
 
-// Variables
+// Variables for the timer
 let timer = null;
 let startTime = 0;
 let elapsedTime = 0;
@@ -199,7 +199,7 @@ function reset() {
     display.textContent = "00:00:00:00";
 }
 
-/* Updates the time on a reguarly basis */
+/* Updates the timer on a reguarly basis */
 function update() {
     const currentTime = Date.now();
     elapsedTime = currentTime - startTime;
@@ -217,19 +217,21 @@ function update() {
     display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
 }
 
-/* */
+/* This function runs the clock */
 function clock(){
-                
+    
+    //Variables for the date in the clock
     var monthNames = [ "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December" ]; 
     var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
 
     var today = new Date();
-
+    
+    //Selector for the date
     document.getElementById('Date').innerHTML = (dayNames[today.getDay()] + " " + 
     today.getDate() + ' ' + monthNames[today.getMonth()] + ' ' +today.getFullYear());
 
-    
+    //Variables for the clock
     var h = today.getHours();
     var m = today.getMinutes();
     var s = today.getSeconds();
@@ -238,7 +240,8 @@ function clock(){
     h = h<10? '0'+h: h;
     m = m<10? '0'+m: m;
     s = s<10? '0'+s: s;               
-
+    
+    //Selectors for the clock(hours, min and sec)
     document.getElementById('hours').innerHTML = h;
     document.getElementById('min').innerHTML = m;
     document.getElementById('sec').innerHTML = s;
