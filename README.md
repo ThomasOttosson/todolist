@@ -6,13 +6,15 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Features
 
-* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. The user can also use the select options to see which tasks that has been completed or uncompleted. All the actions the users take on the site will get stored in the in a local storage so when they return to the page everything will be saved. 
+* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. 
+
+* The user can also use the select filter options to see which tasks that has been completed or uncompleted. 
+
+* All the tasks the users create on the site will get stored in the in a local storage so when they return to the page everything will be saved. 
 
 * The task manager has a timer with a start, stop and reset function so the user can track their time. 
 
-* The task manager also has a local storage function which enables the user to have their tasks saved for the future.
-
-* The task manager also has an in real life clock.
+* The task manager also has an in real life clock and date tracker.
 
 ## Background design
 
@@ -86,6 +88,8 @@ This project is a good visiual learning experience where it can give a person an
 
 * Adding a tool which can move around the tasks based on priority.
 
+* Adding a local storage for the timer.
+
 ## Validator testing
 
 The HTML and CSS code has been validated through:
@@ -118,7 +122,7 @@ The HTML and CSS code has been validated through:
 
 Code Institute: https://codeinstitute.net/
 
-CI template: https://github.com/Code-Institute-Org/ci-full-template
+Code Institute's CI template i used: https://github.com/Code-Institute-Org/ci-full-template
 
 * Some of my Javascript knowledge regarding this project came from this video: https://www.youtube.com/watch?v=W6NZfCO5SIk. Youtube channel: https://www.youtube.com/@programmingwithmosh
 
@@ -126,7 +130,7 @@ CI template: https://github.com/Code-Institute-Org/ci-full-template
 
 * Some of my CSS design knowledge regarding this project came from this video: https://www.youtube.com/watch?v=4kWHW7da4U8. Youtube channel: https://www.youtube.com/@KevinPowell
 
-* Some of my Javascript knowledge and code was inspired by my freinds Dennis and Marcel who are both full-stack Developers.
+* Some of my Javascript knowledge and code was inspired by my freinds Dennis and Marcel who are both full-stack Developers. Some of the knowledge was inspired through lessons at Code Institute, most of the learning material is not accessed to the public at Code Institute unless you sign up for the Course.
 
 ## Media
 
