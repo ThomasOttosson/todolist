@@ -78,13 +78,9 @@ The HTML and CSS code has been validated through:
 
 ## Overall tests
 
-* Amiresponsive:
-
-![]()
-
 * Lighthouse results:
 
-![]()
+![accessibillity](./assets/images/accessibillity.png)
 
 ## Unfixed bugs
 
@@ -94,7 +90,7 @@ The HTML and CSS code has been validated through:
 
 * The deployment was made through github. The step by step process where the following: Settings --> Pages --> Source --> Deploy from a branch --> Main --> /(root) --> Save.
 
-![]()
+![deployment_github_tasks](./assets/images/deployment_github_tasks.png)
 
 ## Credit
 
