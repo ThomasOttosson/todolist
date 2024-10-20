@@ -7,8 +7,8 @@
 
 /* Creates the background color and font */ 
 body {
-    background-image: linear-gradient(120deg, #f6d365, #fda085);
-    color: white;
+    background-image: linear-gradient(120deg, #e4cdcd, #650404);
+    color: black;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
 }
@@ -38,7 +38,7 @@ form button {
 
 /* Styles the color of the form button and makes the button look clickable */
 form button {
-    color: #fda085;
+    color: #000000;
     background: white;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -46,8 +46,8 @@ form button {
 
 /* Changes the color of the form button during a hover event */
 form button:hover {
-    background: #fda085;
-    color: white;
+    background: #7b4141;
+    color: black;
 }
 
 /* Centers the container */
@@ -83,7 +83,7 @@ form button:hover {
 /* Styles the look of the trashcan button and checkmark button */
 .trash-btn, 
 .complete-btn {
-    background: #ff6f47;
+    background: #ff0000;
     color: white;
     border: none;
     padding: 1rem;
@@ -137,7 +137,7 @@ select {
 
 /* Changes the color and pointer for the select button */
 select {
-    color: #ff6f47;
+    color: black;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
@@ -148,7 +148,7 @@ select {
 select::after {
     content: "\25BC";
     position: absolute;
-    background: #ff6f47;
+    background: black;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -159,7 +159,7 @@ select::after {
 /* Styles the select button during a hover event */
 .select:hover::after {
     background: white;
-    color: #ff6f47;
+    color: black;
 }
 
 /* Adjusts the position of the timer container div */
@@ -175,7 +175,7 @@ select::after {
     font-size: 5rem;
     font-family: monospace;
     font-weight: bold;
-    color: hsl(0, 0%, 30%);
+    color: black;
     text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75%);
     margin-bottom: 25px;
 }
@@ -190,13 +190,13 @@ select::after {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    color: white;
+    color: black;
     transition: background-color 0.5s ease;
 }
 
 /* Makes the start button green in the timer */
 #startBtn {
-    background-color: rgb(73, 204, 73);
+    background-color: rgb(0, 157, 0);
 }
 /* Makes the start button lighter green during a hover event in the timer */
 #startBtn:hover {
@@ -205,7 +205,7 @@ select::after {
 
 /* Makes the stop button red in the timer */
 #stopBtn {
-    background-color: rgb(245, 0, 0);
+    background-color: rgb(213, 1, 1);
 }
 
 /* Makes the stop button lighter red during a hover event in the timer */
@@ -215,10 +215,39 @@ select::after {
 
 /* Makes the reset button blue in the timer */
 #resetBtn {
-    background-color: rgb(17, 40, 249);
+    background-color: rgb(20, 20, 255);
 }
 
 /* Makes the reset button lighter blue during a hover event in the timer */
 #resetBtn:hover {
-    background-color: rgb(164, 163, 242);
+    background-color: rgb(138, 137, 233);
+}
+
+/* Adjusts the position of the clock */
+#clock-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -70px;
+}
+
+/* Adjusts the color and padding of the clock */
+.clock {
+    color: black;
+    padding: 40px;
+}
+
+/* Adjusts the size and position of the date */
+#date {
+    font-size: 20px !important;
+    text-align: center;
+}
+
+/* Fixes the style and the position of the ul element in html */
+.clock ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    gap: 15px;
 }

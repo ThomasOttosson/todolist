@@ -98,7 +98,19 @@ The HTML and CSS code has been validated through:
 
 ## Credit
 
-* This project was inspired by my friends Dennis and Marcel where they thaught me a great deal about programming. Both of them are full-stack developers.
+* The Html and css basics of this code was inspired by Code Institute's love running project:
+
+Code Institute: https://codeinstitute.net/
+
+CI template: https://github.com/Code-Institute-Org/ci-full-template
+
+* Some of my Javascript knowledge regarding this project came from this video: https://www.youtube.com/watch?v=W6NZfCO5SIk. Youtube channel: https://www.youtube.com/@programmingwithmosh
+
+* Some of my CSS knowledge regarding this project came from this video: https://www.youtube.com/watch?v=phWxA89Dy94: Youtube channel: https://www.youtube.com/@slayingthedragon
+
+* Some of my CSS design knowledge regarding this project came from this video: https://www.youtube.com/watch?v=4kWHW7da4U8. Youtube channel: https://www.youtube.com/@KevinPowell
+
+* Some of my Javascript knowledge and code was inspired by my freinds Dennis and Marcel who are both full-stack Developers.
 
 ## Media
 
