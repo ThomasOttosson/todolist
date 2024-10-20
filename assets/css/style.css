@@ -162,15 +162,15 @@ select::after {
     color: #ff6f47;
 }
 
+/* Adjusts the position of the timer container div */
 #container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px;
-    border: 5px solid;
-    border-radius: 50px;
 }
 
+/* adjusts the size and color of the numbers in the timer */
 #display {
     font-size: 5rem;
     font-family: monospace;
@@ -180,6 +180,7 @@ select::after {
     margin-bottom: 25px;
 }
 
+/* Adjusts the size and style of the buttons of the timer */
 #controls button {
     font-size: 1rem;
     font-weight: bold;
@@ -193,26 +194,31 @@ select::after {
     transition: background-color 0.5s ease;
 }
 
+/* Makes the start button green in the timer */
 #startBtn {
     background-color: rgb(73, 204, 73);
 }
-
+/* Makes the start button lighter green during a hover event in the timer */
 #startBtn:hover {
     background-color: rgb(156, 231, 156);
 }
 
+/* Makes the stop button red in the timer */
 #stopBtn {
     background-color: rgb(245, 0, 0);
 }
 
+/* Makes the stop button lighter red during a hover event in the timer */
 #stopBtn:hover {
     background-color: rgb(246, 140, 140);
 }
 
+/* Makes the reset button blue in the timer */
 #resetBtn {
     background-color: rgb(17, 40, 249);
 }
 
+/* Makes the reset button lighter blue during a hover event in the timer */
 #resetBtn:hover {
     background-color: rgb(164, 163, 242);
 }
