@@ -1,4 +1,4 @@
-# Thomas todo list
+# Thomas Task Manager
 
 This project is a good visiual learning experience where it can give a person an added piece of creativity in terms of a nice color design and functions for future projects.
 
@@ -18,15 +18,15 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Text input field
 
-* The text input field have a clean white background where the user can type their text of "todos". The text has been nicely centered so the text isn't stuck to the edge.
+* The text input field have a clean white background where the user can type their text of tasks. The text has been nicely centered so the text isn't stuck to the edge.
 
 ## Text input field button
 
 * Next to the text input field the user can find a button. The button has a hover effect so it changes color when that event happens.
 
-## "Todos"
+## The tasks
 
-* The "todos" pops up when the user presses the text input field button. To the right side of the "todo" item the user can find a green checkmark button and a trashcan button.
+* The tasks pops up when the user presses the text input field button. To the right side of the tasks items the user can find a green checkmark button and a trashcan button.
 
 ## Checkmark and trashcan buttons
 
