@@ -130,6 +130,12 @@ Code Institute's CI template i used: https://github.com/Code-Institute-Org/ci-fu
 
 * Some of my CSS design knowledge regarding this project came from this video: https://www.youtube.com/watch?v=4kWHW7da4U8. Youtube channel: https://www.youtube.com/@KevinPowell
 
+* Some of my Javascript knowledge came from this video: https://www.youtube.com/watch?v=Ttf3CEsEwMQ&t=2017s. Youtube Channel: https://www.youtube.com/@developedbyed
+
+* Some of my Javascript knowledge came from this video: https://www.youtube.com/watch?v=CIOzgvzcvwg. Youtube channel: https://www.youtube.com/@learning-axis
+
+* Some of my Javascript knowledge came from this video: https://www.youtube.com/watch?v=d8-LGhKtzRw&t=815s. Youtube channel: https://www.youtube.com/watch?v=d8-LGhKtzRw&t=815s
+
 * Some of my Javascript knowledge and code was inspired by my freinds Dennis and Marcel who are both full-stack Developers. Some of the knowledge was inspired through lessons at Code Institute, most of the learning material is not accessed to the public at Code Institute unless you sign up for the Course.
 
 ## Media
