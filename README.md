@@ -118,11 +118,9 @@ The HTML and CSS code has been validated through:
 
 ## Credit
 
-* The Html and css basics of this code was inspired by Code Institute's love running project:
+* The Html and css basics of this code was inspired by Code Institute's love running project. Here is a link to Code Institute's website: https://codeinstitute.net/
 
-Code Institute: https://codeinstitute.net/
-
-Code Institute's CI template i used: https://github.com/Code-Institute-Org/ci-full-template
+* Here is the Code Institute's CI template i used: https://github.com/Code-Institute-Org/ci-full-template
 
 * Some of my Javascript knowledge regarding this project came from this video: https://www.youtube.com/watch?v=W6NZfCO5SIk. Youtube channel: https://www.youtube.com/@programmingwithmosh
 
