@@ -10,7 +10,7 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Background design
 
-* The color style: linear-gradient(120deg, #f6d365, #fda085) was used as a background image for this project.
+* The color style: linear-gradient(120deg, #f6d365, #fda085) was used as a background image for this project. This gives the user a fun and beutiful color to watch instead of just one simple and same color.
 
 ## Title
 
@@ -62,11 +62,15 @@ The HTML and CSS code has been validated through:
 
 ## Unfixed bugs
 
+* There is a problem for Mac users to click on the filter buttons. When the mac user clicks on the buttons they need to click 2 times and when a windows pc computer clicks on the button they only need to press it once. Multiple different individuals and support teams with programming experience have reviewed the bug and haven't been able to solve it yet.
+
 ## Deployment
 
 * The deployment was made through github. The step by step process where the following: Settings --> Pages --> Source --> Deploy from a branch --> Main --> /(root) --> Save.
 
 ## Credit
+
+* This project was inspired by my childhood friends Dennis and Marcel where they thaught me a great deal about programming. Both of them are full-stack developers.
 
 ## Media
 

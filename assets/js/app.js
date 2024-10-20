@@ -10,7 +10,7 @@ todoButton.addEventListener('click', addTodo);
 todoList.addEventListener('click', deleteCheck);
 filterOption.addEventListener('click', filterTodo);
 
-//Functions
+/* Functions */
 
 function addTodo(event) {
     //Prevent form from submitting
@@ -49,6 +49,7 @@ function addTodo(event) {
     todoInput.value = "";
 }
 
+/* Deletes the todos */
 function deleteCheck(e) {
     const item = e.target;
     //Delete todo
@@ -69,7 +70,7 @@ function deleteCheck(e) {
     }
 }
 
-//Seperates completed and uncompleted in the options
+/* Seperates completed and uncompleted in the options */
 function filterTodo(e) {
     const todos = todoList.childNodes;
     todos.forEach(function(todo) {
@@ -98,7 +99,7 @@ function filterTodo(e) {
     });
 }
 
-//Saves to localstorage
+/* Saves to localstorage */
 function saveLocalTodos(todo) {
     let todos;
     if(localStorage.getItem('todos') === null) {
@@ -110,7 +111,7 @@ function saveLocalTodos(todo) {
     localStorage.setItem('todos', JSON.stringify(todos));
 }
 
-// Fixes the storage index
+/* Fixes the storage index */
 function getTodos() {
     let todos;
     if(localStorage.getItem('todos') === null) {
@@ -146,7 +147,7 @@ function getTodos() {
     });
 }
 
-//removes from local storage
+/* removes from local storage */
 function removeLocalTodos(todo) {
     let todos;
     if(localStorage.getItem('todos') === null) {
