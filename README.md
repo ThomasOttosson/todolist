@@ -76,6 +76,8 @@ The HTML and CSS code has been validated through:
 
 * Jigsaw Validator(CSS): https://www.w3.org/
 
+* JSHint(Javascript): https://jshint.com/
+
 ## Overall tests
 
 * Lighthouse results:
