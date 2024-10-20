@@ -1,12 +1,12 @@
 # Thomas Task Manager
 
-This project is a good visiual learning experience where it can give a person an added piece of creativity in terms of a nice color design and functions for future projects.
+This project is a good visiual learning experience where it can give a person an added piece of creativity in terms of a nice color design and functions for future projects. 
 
 ![task_manager](./assets/images/task_manager.png)
 
 ## Features
 
-* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. The user can also use the select options to see which tasks that has been completed or uncompleted. All the actions the users take on the site will get stored in the in a local storage so when they return to the page everything will be saved. The project also has a timer with a start, stop and reset function so the user can track their time.
+* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. The user can also use the select options to see which tasks that has been completed or uncompleted. All the actions the users take on the site will get stored in the in a local storage so when they return to the page everything will be saved. The project has a timer with a start, stop and reset function so the user can track their time. The project also has a local storage function which enables the user to have their tasks saved for the future.
 
 ## Background design
 
@@ -60,6 +60,8 @@ This project is a good visiual learning experience where it can give a person an
 
 * The timer has a green start button, a red stop button and a blue reset button.
 
+* All the timer buttons have a hover effect so the colors become brighter and they have a transition effect of background-color 0.5s ease in CSS.
+
 ![timer_task](./assets/images/timer_task.png)
 
 ## Features left to improve the project
@@ -96,10 +98,11 @@ The HTML and CSS code has been validated through:
 
 ## Credit
 
-* This project was inspired by my childhood friends Dennis and Marcel where they thaught me a great deal about programming. Both of them are full-stack developers.
+* This project was inspired by my friends Dennis and Marcel where they thaught me a great deal about programming. Both of them are full-stack developers.
 
 ## Media
 
 * All the icons used in the code was taken from font awsome. Here is a url adress to their homepage: https://fontawesome.com/
 
-* https://fonts.google.com/
+
+* Some font were taken from google fonts and here is a url adress to their homepage: https://fonts.google.com/
