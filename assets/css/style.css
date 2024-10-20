@@ -181,5 +181,17 @@ select::after {
 }
 
 #controls button {
-    
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#startBtn {
+    background-color: rgb(73, 204, 73);
 }
