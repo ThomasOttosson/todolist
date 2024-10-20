@@ -176,7 +176,7 @@ select::after {
     font-family: monospace;
     font-weight: bold;
     color: hsl(0, 0%, 30%);
-    text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0,75%);
+    text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75%);
     margin-bottom: 25px;
 }
 
