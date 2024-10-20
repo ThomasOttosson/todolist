@@ -30,13 +30,13 @@ This project is a good visiual learning experience where it can give a person an
 
 * Next to the text input field the user can find a button. The button has a hover effect so it changes color when that event happens.
 
-![]()
+![textinput_button](./assets/images/textinput_button.png)
 
 ## The tasks
 
 * The tasks pops up when the user presses the text input field button. To the right side of the tasks items the user can find a green checkmark button and a trashcan button.
 
-![]()
+![tasks](./assets/images/tasks.png)
 
 ## Checkmark and trashcan buttons
 
@@ -44,13 +44,13 @@ This project is a good visiual learning experience where it can give a person an
 
 * The trachcan button can be used by the user when they want to remove a task.
 
-![]()
+![trashcan_checkmark](./assets/images/trashcan_checkmark.png)
 
 ## Select options button
 
 * Here the user can choose and filter the tasks that has been completed or uncompleted. They can also pick the option of choosing all.
 
-![]()
+![all_](./assets/images/all_.png)
 
 ## Timer
 
@@ -60,7 +60,7 @@ This project is a good visiual learning experience where it can give a person an
 
 * The timer has a green start button, a red stop button and a blue reset button.
 
-![]()
+![timer_task](./assets/images/timer_task.png)
 
 ## Features left to improve the project
 
