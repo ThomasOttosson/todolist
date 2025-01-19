@@ -2,7 +2,7 @@
 const todoInput = document.querySelector('.todo-input');
 const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
-const filterOption = document.querySelector('.filter-todo')
+const filterOption = document.querySelector('.filter-todo');
 
 //Event Listeners for the todos
 document.addEventListener('DOMContentLoaded', getTodos);
@@ -77,20 +77,20 @@ function filterTodo(e) {
         switch(e.target.value) {
             case "all":
                 todo.style.display = "flex";
-                console.log("all selected")
+                console.log("all selected");
                 break;
             case "completed":
                 if(todo.classList.contains('completed')) {
                     todo.style.display = 'flex';
-                    console.log("completed selected")
+                    console.log("completed selected");
                 } else {
                     todo.style.display = "none";
                 }
                 break;
             case "uncompleted":
                 if(!todo.classList.contains('completed')) {
-                    todo.style.display = 'flex'
-                    console.log("uncompleted selected")
+                    todo.style.display = 'flex';
+                    console.log("uncompleted selected");
                 } else {
                     todo.style.display = "none";
                 }
@@ -223,7 +223,7 @@ function clock(){
     //Variables for the date in the clock
     var monthNames = [ "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December" ]; 
-    var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+    var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
     var today = new Date();
     

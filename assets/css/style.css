@@ -8,6 +8,7 @@
 /* Creates the background color and font */ 
 body {
     background-image: linear-gradient(120deg, #e4cdcd, #650404);
+    background-size: cover;
     color: black;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
@@ -250,4 +251,74 @@ select::after {
     display: flex;
     font-size: 20px;
     gap: 15px;
+}
+
+/* Media query: large or landscape phones (0px and up) */
+@media screen and (min-width: 0px) {
+    header {
+        justify-content: center;
+        align-items: center;
+        font-size: 30%;
+    }
+
+    form {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    #container, #display, #controls {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        size: 20%;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {    
+    /* Reasons section */
+    header {
+        justify-content: center;
+        align-items: center;
+        font-size: 100%;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+    header{
+        justify-content: center;
+        align-items: center;
+        font-size: 90%;
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        justify-content: center;
+        align-items: center;
+        font-size: 85%;
+    }
+}
+
+
+    /* Media query: large or landscape phones (576px and up) */
+@media screen and (max-width: 576px) {
+    header {
+        justify-content: center;
+        align-items: center;
+        font-size: 80%;
+    }
+}
+
+
+@media screen and (max-width: 344) {
+    header {
+        justify-content: center;
+        align-items: center;
+        font-size: 80%;
+    }
 }
