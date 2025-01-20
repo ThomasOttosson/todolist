@@ -192,13 +192,14 @@ select::after {
     font-size: 1rem;
     font-weight: bold;
     padding: 10px 20px;
-    margin: 5px;
-    min-width: 125px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     color: black;
     transition: background-color 0.5s ease;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 /* Makes the start button green in the timer */
@@ -265,13 +266,26 @@ select::after {
     header {
         font-size: 0.8rem;
     }
+
+    #controls button {
+        font-size: 0.8rem;
+    }
+
+    #display {
+        font-size: 2rem;
+    }
+
 }
 
 /* For iPhone 4 screen size on "Am I Responsive?" */ 
 
 @media screen and (max-width: 320px) {
     header {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
+    }
+
+    #controls button {
+        font-size: 0.65rem;
     }
 
 }
@@ -282,7 +296,11 @@ select::after {
 @media screen and (max-width: 280px) {
 
     header {
-        font-size: 0.4rem;
+        font-size: 0.5rem;
+    }
+
+    #display {
+        font-size: 1.5rem;
     }
     
 }
