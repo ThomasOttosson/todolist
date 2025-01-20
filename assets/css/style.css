@@ -259,86 +259,30 @@ select::after {
     gap: 15px;
 }
 
-/* Media query: large or landscape phones (0px and up) */
-@media screen and (min-width: 0px) {
-    header {
-        justify-content: center;
-        align-items: center;
-        font-size: 30%;
-    }
+/* Media queries below */
 
-    form {
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    #container, #display, #controls {
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        size: 20%;
-    }
-}
-
-
-@media screen and (max-width: 1200px) {    
-    /* Reasons section */
-    header {
-        font-size: 100%;
-    }
-}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (max-width: 992px) {
-    header{
-        font-size: 90%;
-    }
-}
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (max-width: 768px) {
-    /* Header */
-    header {
-        
-        font-size: 80%;
-    }
-}
-
-
-    /* Media query: large or landscape phones (576px and up) */
 @media screen and (max-width: 576px) {
     header {
-        
-        font-size: 70%;
+        font-size: 0.8rem;
     }
 }
 
-@media screen and (min-width: 344px) {
-    header {
-        
-        font-size: 60%;
-    }
-}
+/* For iPhone 4 screen size on "Am I Responsive?" */ 
 
-
-@media screen and (max-width: 344px) {
+@media screen and (max-width: 320px) {
     header {
-        
         font-size: 0.5rem;
     }
 
-    form input, form button {
-        font-size: 0.5rem;
-    }
-
-    #display {
-        font-size: 1.5rem;
-    }
 }
 
-@media screen and (max-width: 189px) {
+    
+    
+
+@media screen and (max-width: 280px) {
+
     header {
-        font-size: 0.4rem
+        font-size: 0.4rem;
     }
+    
 }
