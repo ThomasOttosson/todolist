@@ -2,7 +2,7 @@
 
 This project is a good visiual learning experience where it can give a person an added piece of creativity in terms of a nice color design and functions for future projects. 
 
-![task_manager](./assets/images/task_manager.png)
+![event_party_planner](./assets/images/event.party.planner.png)
 
 ## Features
 
@@ -20,37 +20,37 @@ This project is a good visiual learning experience where it can give a person an
 
 * The hex color style: #fda5a5 was used as a background image for this project. This gives the user a welcoming and beautiful color to watch.
 
-![background_color](./assets/images/background_task.png)
+![background_color](./assets/images/background_color.png)
 
 ## Title
 
 * The title was created with google fonts where "Popppins" was used and sans-serif.
 
-![title_taskmanager](./assets/images/task_title.png)
+![title_event](./assets/images/title_event.png)
 
 ## The clock
 
 * The clock is a digital clock design which tracks the current date and time.
 
-![clock_task](./assets/images/clock_task.png)
+![clock_task](./assets/images/clock_event.png)
 
 ## Text input field
 
 * The text input field have a clean white background where the user can type their text of tasks. The text has been nicely centered so the text isn't stuck to the edge.
 
-![textinput_field](./assets/images/inputtext_task.png)
+![textinput_field](./assets/images/text_input_event.png)
 
 ## Text input field button
 
 * Next to the text input field the user can find a button. That button has a hover effect so it changes color when that event happens.
 
-![textinput_button](./assets/images/textbutton_task.png)
+![textinput_button](./assets/images/text_input_button_event.png)
 
 ## The tasks
 
 * The tasks pops up when the user presses the text input field button. To the right side of the tasks items the user can find a green checkmark button and a trashcan button.
 
-![tasks](./assets/images/thetasks_task.png)
+![tasks](./assets/images/tasks_event.png)
 
 ## Checkmark and trashcan buttons
 
@@ -58,13 +58,13 @@ This project is a good visiual learning experience where it can give a person an
 
 * The trachcan button can be used by the user when they want to remove a task.
 
-![trashcan_checkmark](./assets/images/trashcan_checkmark.png)
+![trashcan_checkmark](./assets/images/buttons_event.png)
 
 ## Select filter options button
 
 * Here the user can choose and filter the tasks that has been completed or uncompleted. They can also pick the option of choosing all.
 
-![all_](./assets/images/all_task.png)
+![all_](./assets/images/all_event.png)
 
 ## Timer
 
@@ -76,7 +76,7 @@ This project is a good visiual learning experience where it can give a person an
 
 * All the timer buttons have a hover effect so the colors become brighter and they have a transition effect of background-color 0.5s ease in CSS.
 
-![timer_task](./assets/images/timer_task.png)
+![timer_task](./assets/images/timer_event.png)
 
 ## Features left to improve the project
 
