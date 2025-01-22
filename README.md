@@ -104,7 +104,7 @@ The HTML and CSS code has been validated through:
 
 * Lighthouse results:
 
-![accessibillity](./assets/images/accessibillity.png)
+![accessibillity](./assets/images/lighthouse_event.png)
 
 ## Unfixed bugs
 
