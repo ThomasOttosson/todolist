@@ -1,4 +1,4 @@
-# Thomas Task Manager
+# Event Party Planner
 
 This project is a good visiual learning experience where it can give a person an added piece of creativity in terms of a nice color design and functions for future projects. 
 
@@ -6,7 +6,7 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Features
 
-* The user writes one or more tasks that he or she needs to do. The user can later on mark each task as completed or remove the task if the user has changed their mind. 
+* The user writes one or more tasks that he or she needs to do to plan a party. The user can later on mark each task as completed or remove the task if the user has changed their mind. 
 
 * The user can also use the select filter options to see which tasks that has been completed or uncompleted. 
 
@@ -18,7 +18,7 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Background design
 
-* The color style: linear-gradient(120deg, #e4cdcd, #650404) was used as a background image for this project. This gives the user a fun and beutiful color to watch instead of just one simple and same color.
+* The hex color style: #fda5a5 was used as a background image for this project. This gives the user a welcoming and beautiful color to watch.
 
 ![background_color](./assets/images/background_task.png)
 
@@ -42,7 +42,7 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Text input field button
 
-* Next to the text input field the user can find a button. The button has a hover effect so it changes color when that event happens.
+* Next to the text input field the user can find a button. That button has a hover effect so it changes color when that event happens.
 
 ![textinput_button](./assets/images/textbutton_task.png)
 
@@ -135,6 +135,7 @@ The HTML and CSS code has been validated through:
 * Some of my Javascript knowledge came from this video: https://www.youtube.com/watch?v=d8-LGhKtzRw&t=815s. Youtube channel: https://www.youtube.com/watch?v=d8-LGhKtzRw&t=815s
 
 * Some of my Javascript knowledge and code was inspired by my freinds Dennis and Marcel who are both full-stack Developers. Some of the knowledge was inspired through lessons at Code Institute, most of the learning material is not accessed to the public at Code Institute unless you sign up for the Course.
+
 
 ## Media
 
