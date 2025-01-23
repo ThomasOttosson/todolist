@@ -24,7 +24,7 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Title
 
-* The title was created with google fonts where "Popppins" was used and sans-serif.
+* The title was created with google fonts where "Popppins" was used and sans-serif as fallback. The title also has an underline effect made through css.
 
 ![title_event](./assets/images/title_event.png)
 
@@ -92,11 +92,11 @@ This project is a good visiual learning experience where it can give a person an
 
 ## Validator testing
 
-The HTML and CSS code has been validated through:
+The HTML, CSS and javascript code has been validated through:
 
 * W3C Validator(HTML): https://validator.w3.org/nu/
 
-* Jigsaw Validator(CSS): https://www.w3.org/
+* Jigsaw Validator(CSS): https://jigsaw.w3.org/css-validator/
 
 * JSHint(Javascript): https://jshint.com/
 
