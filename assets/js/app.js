@@ -221,21 +221,21 @@ function update() {
 function clock(){
     
     //Variables for the date in the clock
-    var monthNames = [ "January", "February", "March", "April", "May", "June",
+    const monthNames = [ "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December" ]; 
-    var dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+    const dayNames= ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-    var today = new Date();
+    const today = new Date();
     
     //Selector for the date
     document.getElementById('Date').innerHTML = (dayNames[today.getDay()] + " " + 
     today.getDate() + ' ' + monthNames[today.getMonth()] + ' ' +today.getFullYear());
 
     //Variables for the clock
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    var day = h<11 ? 'AM': 'PM';
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
+    
 
     h = h<10? '0'+h: h;
     m = m<10? '0'+m: m;
@@ -246,4 +246,7 @@ function clock(){
     document.getElementById('min').innerHTML = m;
     document.getElementById('sec').innerHTML = s;
 
-}var inter = setInterval(clock,400);
+} 
+
+// Updates the clock every 400 milliseconds
+setInterval(clock,400);
