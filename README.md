@@ -104,6 +104,8 @@ The HTML, CSS and javascript code has been validated through:
 
 * JSHint(Javascript): https://jshint.com/
 
+![js_hint](./assets/images/js_hintttt.png)
+
 ## Overall tests
 
 * Lighthouse results:
