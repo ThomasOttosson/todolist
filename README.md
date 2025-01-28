@@ -96,7 +96,11 @@ The HTML, CSS and javascript code has been validated through:
 
 * W3C Validator(HTML): https://validator.w3.org/nu/
 
+![html_checker](./assets/images/html%20checkerrr.png)
+
 * Jigsaw Validator(CSS): https://jigsaw.w3.org/css-validator/
+
+![css_results](./assets/images/css_checker.png)
 
 * JSHint(Javascript): https://jshint.com/
 
