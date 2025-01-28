@@ -104,6 +104,8 @@ The HTML, CSS and javascript code has been validated through:
 
 * JSHint(Javascript): https://jshint.com/
 
+JS Hint shows three unused variables since js hint can't detect the variables used in the html file. 
+
 ![js_hint](./assets/images/js_hintttt.png)
 
 ## Overall tests
