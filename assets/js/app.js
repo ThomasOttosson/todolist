@@ -144,7 +144,7 @@ function getTodos() {
 // Selector for timer
 const display = document.getElementById("display");
 
-// Variables for the timer
+// More variables for the timer
 let timer = null;
 let startTime = 0;
 let elapsedTime = 0;
@@ -185,7 +185,7 @@ function update() {
     const currentTime = Date.now();
     elapsedTime = currentTime - startTime;
 
-    //Variables for the timer
+    // Variables for the timer
     let hours = Math.floor(elapsedTime / (1000 * 60 * 60));
     let minutes = Math.floor(elapsedTime / (1000 * 60) % 60);
     let seconds = Math.floor(elapsedTime / 1000 % 60);
