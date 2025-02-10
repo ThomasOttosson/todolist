@@ -38,7 +38,7 @@ function createTodoElement(todo) {
     trashButton.classList.add("trash-btn");
     todoDiv.appendChild(trashButton);
 
-    // Set initial completed state
+    
     // Check from local storage that if the status is already completed, 
     // add a class of completed to it.  
     if (todo.status === "completed") {
